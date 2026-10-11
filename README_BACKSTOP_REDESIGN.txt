@@ -2,16 +2,16 @@ BACKSTOP OWNER-FIRST WORKFLOW REDESIGN
 ======================================
 
 Files in this patch
-- backstop_case.py: replace the existing file in the BACKSTOP project root.
+- backstop_case.py
 
-Expected project layout (keep your existing scripts and data):
+Expected project layout:
 BACKSTOP/
-  backstop_case.py       <-- replace with this version
+  backstop_case.py
   ledger.py
   adversary.py
   data/
     demo_nasi_lemak/
-  outputs/               <-- created/used automatically
+  outputs/
 
 Run from PowerShell:
   cd "$HOME\Desktop\BACKSTOP"
